@@ -1,0 +1,13 @@
+{
+  "ports": {
+    "http": "3040",
+    "rpc": "3041"
+  },
+  "applications": {
+    "tests": "./application.json"
+  },
+  "defaults": {
+    "application": "tests",
+    "language": "spa"
+  }
+}

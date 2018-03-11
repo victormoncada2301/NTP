@@ -1,0 +1,24 @@
+{
+  "page": {
+    "route": "/react",
+    "dependencies": {
+      "require": {
+        "react": "React",
+        "react-dom": "ReactDom"
+      }
+    }
+  },
+  "code": {
+    "jsx": {
+      "files": [
+        "hello.jsx"
+      ]
+    },
+    "js": {
+      "files": [
+        "model.js",
+        "index.js"
+      ]
+    }
+  }
+}
