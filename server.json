@@ -7,7 +7,8 @@
     "tests": "./application.json"
   },
   "libraries": {
-    "graphs": "./node_modules/@socites/social-graphs-dev/library.json"
+    "graphs": "./node_modules/@socites/social-graphs-dev/library.json",
+    "graphs-ui": "./node_modules/@socites/social-graphs-ui-dev/library.json"
   },
   "defaults": {
     "application": "tests",

@@ -5,17 +5,11 @@
   ],
   "imports": {
     "libraries": [
-      "graphs/v1"
+      "graphs/v1",
+      "graphs-ui/v1"
     ]
   },
   "params": {
-    "defaultRoute": "hello",
-    "graphs": {
-      "routes": {
-        "2": "libraries/graphs/entities/users/profile/routing",
-        "4": "libraries/graphs/entities/contents/view",
-        "23": "libraries/graphs/entities/contents/view"
-      }
-    }
+    "defaultRoute": "hello"
   }
 }
