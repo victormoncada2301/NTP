@@ -1,14 +1,20 @@
 {
-  "name": "webinar",
-  "version": "1.0.1",
-  "description": "Getting Started with BeyondJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "new-times-production",
+  "main": "./lib",
+  "author": "victorm",
+  "files": [
+    "lib/"
+  ],
   "dependencies": {
-    "async": "git+https://github.com/socites/async.git"
+    "beyond": "^0.2.39",
+    "social-graphs": "~0.0.1"
+  },
+  "devDependencies": {
+    "@socites/social-graphs-dev": "~0.0.90",
+    "mocha": "~1.10.0",
+    "should": "~1.2.2"
+  },
+  "engines": {
+    "node": ">= 6.9.4"
   }
 }

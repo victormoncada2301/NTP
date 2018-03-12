@@ -1,10 +1,13 @@
 {
   "ports": {
-    "http": "3040",
-    "rpc": "3041"
+    "http": "3090",
+    "rpc": "3091"
   },
   "applications": {
     "tests": "./application.json"
+  },
+  "libraries": {
+    "graphs": "./node_modules/@socites/social-graphs-dev/library.json"
   },
   "defaults": {
     "application": "tests",
